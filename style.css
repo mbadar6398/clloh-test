@@ -1,0 +1,60 @@
+body,
+html {
+    height:100%;
+    margin:0;
+    font-size:14px;
+}
+
+.banner-container>.row{
+    height:100vh;
+}
+
+.banner{
+    background-image: url('https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition:all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+    min-height:260px;
+    padding:32px;
+    color: #ffffff;
+    max-height:auto;
+}
+
+.banner:hover{
+    background-size: 110% 110%;
+}
+
+.banner h1{
+    text-align:center;
+}
+
+.banner h2{
+    margin:0;
+    font-style: italic;
+}
+
+.banner h3{
+    margin-top: 0.5rem;
+    font-size:12px;
+    text-transform: uppercase;
+    padding-bottom:4px;
+}
+
+.banner button{
+    padding:8px 24px;
+    background: orange;
+    font-size:12px;
+    color:#ffffff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border:1px solid #ffffff;
+}
+
+.banner button:hover{
+    background:#222222;
+    -webkit-transition:background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
